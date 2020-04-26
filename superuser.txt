@@ -1,0 +1,7 @@
+Username: rod
+Email address: rodrigo.carmona.m@hotmail.com
+Password:123
+
+
+Superuser created successfully.
+
