@@ -84,8 +84,12 @@ WSGI_APPLICATION = 'platzigram.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'ReparadoresdelHogar',
+        'USER': 'usr_developer',
+        'PASSWORD': 'rodrigo',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
     }
 }
 
